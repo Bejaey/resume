@@ -1,0 +1,22 @@
+{
+	"career":{
+		"data" : " This is Career Objective box."
+	},
+	"education":[
+		{
+			"degree" : "B-Tech (C.S.E)",
+			"college" : "S.V.C.E.T",
+			"data" : ["2015-19","70%"]
+		},
+		{
+			"degree" : "HSEB",
+			"college" : "Khwopa",
+			"data" : ["2013-15","59%"]
+		},
+		{
+			"degree" : "SLC",
+			"college" : "Golden Gate",
+			"data" : ["2013","76%"]
+		}
+		]
+}

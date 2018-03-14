@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample page for Flexbox</title>
+	<style>
+		.flex{
+			display: flex;
+			flex-direction: row;
+			/*flex-direction: column;*/
+			/*flex-direction: column-reverse;*/
+			justify-content: center;
+			/*justify-content: flex-start;*/
+			/*justify-content: flex-end;*/
+		}
+		.flex>div{
+			padding: 2%;
+			background: skyblue; 
+			margin: 2%;
+		}
+	</style>
+</head>
+<body>
+	<div class="flex">
+		<div>A</div>
+		<div>B</div>
+		<div>C</div>
+		<div>D</div>
+	</div
+	<form>
+		<input type="text" id="hi">
+		<button type="button" id="bye" onclick="even()">click</button>
+	</form>
+	<div id="demo">
+		
+	</div>
+
+	<script type="text/javascript">
+		function even(){
+			var hi=document.getElementById("hi").value();
+			if(hi%2==0){
+				getElementByI.d("demo")innerHTML="even";
+			}
+			else{
+				document.getElementById("demo").innerHTML="odd";
+			}
+		}
+	</script>
+</body>
+</html>
